@@ -21,6 +21,7 @@
 (load "setup-go")
 (load "setup-haml-mode")
 (load "setup-haskell-mode")
+(load "setup-html5")
 (load "setup-helm")
 (load "setup-ibuffer")
 (load "setup-java")
@@ -34,6 +35,7 @@
 (load "setup-ruby-mode")
 (load "setup-smooth-scroll")
 (load "setup-yaml-mode")
+
 
 (server-start)
 (custom-set-variables
