@@ -10,3 +10,7 @@
 (add-hook 'nxml-mode-hook
           (lambda ()
             (company-mode)))
+
+(add-hook 'css-mode-hook
+          (lambda ()
+            (company-mode)))
