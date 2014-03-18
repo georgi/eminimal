@@ -6,3 +6,7 @@
 (require 'whattf-dt)
 
 (add-to-list 'auto-mode-alist '("\\.html$" . nxml-mode))
+
+(add-hook 'nxml-mode-hook
+          (lambda ()
+            (company-mode)))
