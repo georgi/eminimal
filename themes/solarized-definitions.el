@@ -541,6 +541,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
              (helm-source-header ((t (,@bg-base02 ,@fg-base1))))
              (helm-selection ((t (,@bg-base00 ,@fg-base03))))
              (helm-match ((t (,@bg-base00 ,@fg-base02))))
+             (helm-ff-directory ((t (,@bg-base03))))
+             (helm-ff-prefix ((t (,@bg-base03))))
 
              (company-preview ((t (,@bg-base00 ,@fg-base03))))
              (company-preview-common ((t (,@bg-base01 ,@fg-base03))))
