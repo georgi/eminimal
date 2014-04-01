@@ -30,6 +30,7 @@
 (load "setup-magit")
 (load "setup-octave-mode")
 (load "setup-omnisharp")
+(load "setup-python")
 (load "setup-recentf")
 (load "setup-rhtml-mode")
 (load "setup-ruby-mode")
