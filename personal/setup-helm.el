@@ -19,6 +19,13 @@
 (global-set-key (kbd "C-SPC") 'helm-mini)
 (global-set-key (kbd "M-RET") 'helm-mini)
 
+(global-set-key (kbd "C-c C-b") 'helm-buffers-list)
+(global-set-key (kbd "C-c C-g") 'helm-git-grep)
+(global-set-key (kbd "C-c C-r") 'helm-recentf)
+(global-set-key (kbd "C-c C-o") 'helm-occur)
+(global-set-key (kbd "C-c C-s") 'helm-swoop)
+(global-set-key (kbd "C-c C-i") 'helm-imenu)
+
 (global-set-key (kbd "s-b") 'helm-buffers-list)
 (global-set-key (kbd "s-g") 'helm-git-grep)
 (global-set-key (kbd "s-r") 'helm-recentf)

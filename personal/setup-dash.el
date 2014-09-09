@@ -6,6 +6,7 @@
 (global-set-key (kbd "C-c d") 'dash-at-point)
 
 (add-to-list 'dash-at-point-mode-alist '(ruby-mode . "ruby"))
+(add-to-list 'dash-at-point-mode-alist '(python-mode . "python2"))
 (add-to-list 'dash-at-point-mode-alist '(c-mode . "c"))
 (add-to-list 'dash-at-point-mode-alist '(emacs-lisp-mode . "elisp"))
 (add-to-list 'dash-at-point-mode-alist '(haskell-mode . "haskell"))
