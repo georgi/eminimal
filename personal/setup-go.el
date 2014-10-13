@@ -2,7 +2,7 @@
 (require-package 'company)
 (require-package 'company-go)
 
-(require 'go-mode-load)
+(require 'go-mode)
 
 (setenv "GOPATH" (getenv "HOME"))
 (setq goroot (substring (shell-command-to-string "go env GOROOT") 0 -1))

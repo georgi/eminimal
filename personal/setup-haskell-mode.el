@@ -1,4 +1,5 @@
 (require-package 'ghc)
+(require-package 'haskell-mode)
 
 (defun console-hoogle ()
   (interactive)

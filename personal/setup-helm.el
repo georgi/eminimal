@@ -25,6 +25,7 @@
 (global-set-key (kbd "C-c C-o") 'helm-occur)
 (global-set-key (kbd "C-c C-s") 'helm-swoop)
 (global-set-key (kbd "C-c C-i") 'helm-imenu)
+(global-set-key (kbd "C-c C-f") 'helm-projectile)
 
 (global-set-key (kbd "s-b") 'helm-buffers-list)
 (global-set-key (kbd "s-g") 'helm-git-grep)
