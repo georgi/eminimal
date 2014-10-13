@@ -13,7 +13,6 @@
 (load "setup-dired")
 (load "setup-emacs-lisp-mode")
 (load "setup-evil")
-(load "setup-fiplr")
 (load "setup-flycheck-mode")
 (load "setup-go")
 (load "setup-haml-mode")
