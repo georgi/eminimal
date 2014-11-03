@@ -28,7 +28,6 @@
 (load "setup-smooth-scroll")
 (load "setup-yaml-mode")
 
-
 (server-start)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
