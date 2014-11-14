@@ -11,7 +11,5 @@
 
 (require 'color-theme-solarized)
 
-(color-theme-approximate-on)
-
 (load-theme 'solarized-dark 1)
 

@@ -4,13 +4,11 @@
 
 (load "setup-defaults")
 (load "setup-package")
-(load "setup-theme")
+;; (load "setup-theme")
 
 (load "setup-c-mode")
 (load "setup-company")
-(load "setup-dash")
 (load "setup-dired")
-(load "setup-emacs-lisp-mode")
 (load "setup-evil")
 (load "setup-flycheck-mode")
 (load "setup-go")
@@ -27,7 +25,8 @@
 (load "setup-smooth-scroll")
 (load "setup-yaml-mode")
 
-(server-start)
+;; (server-start)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

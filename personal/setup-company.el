@@ -1,5 +1,4 @@
-(require-package 'diminish)
-
+(require 'diminish)
 (require 'company)
 
 (setq company-tooltip-limit 30)
