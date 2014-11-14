@@ -6,7 +6,6 @@
 (load "setup-package")
 (load "setup-theme")
 
-(load "setup-auto-complete")
 (load "setup-c-mode")
 (load "setup-company")
 (load "setup-dash")

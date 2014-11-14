@@ -11,4 +11,6 @@
 (define-key company-active-map (kbd "C-n") 'company-select-next)
 (define-key company-active-map (kbd "C-p") 'company-select-previous)
 
+(global-company-mode)
+
 (diminish 'company-mode)
