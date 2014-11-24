@@ -2,8 +2,8 @@
 (require-package 'color-theme-approximate)
 
 (defun on-after-init ()
-    (unless (display-graphic-p (selected-frame))
-          (set-face-background 'default "unspecified-bg" (selected-frame))))
+  (unless (display-graphic-p (selected-frame))
+    (set-face-background 'default "unspecified-bg" (selected-frame))))
 
 (add-hook 'window-setup-hook 'on-after-init)
 
@@ -13,3 +13,6 @@
 
 (load-theme 'solarized-dark 1)
 
+(set-frame-parameter (selected-frame) 'alpha '(90 70)))
+
+(add-to-list 'frame-inherited-parameters 'alpha)

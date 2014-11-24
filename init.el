@@ -4,7 +4,7 @@
 
 (load "setup-defaults")
 (load "setup-package")
-;; (load "setup-theme")
+(load "setup-theme")
 
 (load "setup-c-mode")
 (load "setup-company")
@@ -24,8 +24,6 @@
 (load "setup-ruby-mode")
 (load "setup-smooth-scroll")
 (load "setup-yaml-mode")
-
-;; (server-start)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
