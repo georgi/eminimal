@@ -13,6 +13,6 @@
 
 (load-theme 'solarized-dark 1)
 
-(set-frame-parameter (selected-frame) 'alpha '(90 70)))
+(set-frame-parameter (selected-frame) 'alpha '(85 70))
 
 (add-to-list 'frame-inherited-parameters 'alpha)

@@ -17,6 +17,7 @@
             (require 'inf-haskell)
             (require 'haskell-indentation)
             (ghc-init)
+            (define-key haskell-mode-map (kbd "TAB") 'ghc-complete)
             (define-key haskell-mode-map (kbd "M-RET") nil)
             (define-key haskell-mode-map (kbd "C-c C-h") 'console-hoogle)
             (turn-on-haskell-indentation)))

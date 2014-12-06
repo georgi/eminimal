@@ -37,7 +37,7 @@
 
 (savehist-mode +1)
 
-(set-default-font "Menlo-16")
+(set-default-font "Menlo-14")
 
 (global-set-key (kbd "DEL") 'backward-delete-char-untabify)
 (global-set-key (kbd "RET") 'newline-and-indent)
@@ -47,6 +47,9 @@
 (global-set-key (kbd "<s-return>") 'toggle-frame-fullscreen)
 (global-set-key (kbd "s-=") 'text-scale-increase)
 (global-set-key (kbd "s--") 'text-scale-decrease)
+
+(global-set-key (kbd "<C-tab>") 'switch-to-next-buffer)
+(global-set-key (kbd "<C-S-tab>") 'switch-to-prev-buffer)
 
 (add-to-list 'exec-path "~/bin")
 (add-to-list 'exec-path "/usr/local/bin")

@@ -11,3 +11,6 @@
             (setq ruby-compilation-error-regexp "^\\([^: ]+\.rb\\):\\([0-9]+\\):")))
 
 (add-hook 'ruby-mode-hook 'robe-mode)
+
+(setq auto-mode-alist
+      (cons '("\\.cr$" . ruby-mode) auto-mode-alist))
